@@ -7,8 +7,8 @@ function getName(){
   
   let userName= prompt("Enter your name","John Smith");
 
-  var nameArray = userName.split().sort();
-  var nameString = nameArray.join();
+  var nameArray = userName.split("").sort();
+  var nameString = nameArray.join("");
   
   return nameString;
 
