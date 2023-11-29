@@ -20,9 +20,6 @@ function sortingHat(str){
       return "Slytherin";
   } else if (mod == 3)
       return "Hufflepuff";
-
-    //debugger
-    debugger;
 }
 
 
