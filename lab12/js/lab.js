@@ -11,6 +11,8 @@
 function sortingHat(str){
   var length = str.length;
   var mod = length % 4;
+ //debugg
+  console.log(length + " % 4 = " + mod);
   
   if(mod == 0 ) {
       return "Gryffindor"; 
@@ -21,8 +23,6 @@ function sortingHat(str){
   } else if (mod == 3)
       return "Hufflepuff";
 
-    //debugger
-    debugger;
 }
 
 
